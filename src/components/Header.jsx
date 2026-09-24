@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "./../assets/Sunlander-text-n-Logo-new.png";
 
 export default function Header(){
@@ -14,13 +15,13 @@ export default function Header(){
       </div>
       <div className="justify-between items-center grid grid-cols-3 bg-black">
         <div>
-          <a href="./" className="block text-white text-center text-xl border-l border-white p-5 hover:bg-[#3513cd]">Home</a>
+          <Link to="/" className="block text-white text-center text-xl border-l border-white p-5 hover:bg-[#3513cd]">Home</Link>
         </div>
         <div>
-          <a href="/AboutUs" className="block text-white text-center text-xl border-x border-white p-5 hover:bg-[#3513cd]">About Us</a>
+          <Link to="/AboutUs" className="block text-white text-center text-xl border-x border-white p-5 hover:bg-[#3513cd]">About Us</Link>
         </div>
         <div>
-          <a href="/ContactUs" className="block text-white text-center text-xl border-r border-white p-5 hover:bg-[#3513cd]">Contact Us</a>
+          <Link to="/ContactUs" className="block text-white text-center text-xl border-r border-white p-5 hover:bg-[#3513cd]">Contact Us</Link>
         </div>
       </div>
     </header>      
