@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sunlander-dental-centre/static/css/main.d8dc08ed.css",
-    "main.js": "/sunlander-dental-centre/static/js/main.329e89cc.js",
+    "main.js": "/sunlander-dental-centre/static/js/main.bf3b2200.js",
     "static/js/453.8bd26df8.chunk.js": "/sunlander-dental-centre/static/js/453.8bd26df8.chunk.js",
     "static/media/DSC_0004.jpg": "/sunlander-dental-centre/static/media/DSC_0004.0607cc05c7115ed2fb80.jpg",
     "static/media/Home-page-video.mp4": "/sunlander-dental-centre/static/media/Home-page-video.026033453f3d1199487b.mp4",
@@ -20,11 +20,11 @@
     "static/media/Sunlander-text-n-Logo-new.png": "/sunlander-dental-centre/static/media/Sunlander-text-n-Logo-new.710cf05b051b632b83c4.png",
     "index.html": "/sunlander-dental-centre/index.html",
     "main.d8dc08ed.css.map": "/sunlander-dental-centre/static/css/main.d8dc08ed.css.map",
-    "main.329e89cc.js.map": "/sunlander-dental-centre/static/js/main.329e89cc.js.map",
+    "main.bf3b2200.js.map": "/sunlander-dental-centre/static/js/main.bf3b2200.js.map",
     "453.8bd26df8.chunk.js.map": "/sunlander-dental-centre/static/js/453.8bd26df8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d8dc08ed.css",
-    "static/js/main.329e89cc.js"
+    "static/js/main.bf3b2200.js"
   ]
 }
