@@ -4,7 +4,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'cosmetic-dental': "url('/src/assets/shutterstock_471137213.jpg')"
+      }
+    },
   },
   plugins: [],
 }
