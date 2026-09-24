@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/sunlander-dental-centre/static/css/main.d8dc08ed.css",
+    "main.js": "/sunlander-dental-centre/static/js/main.329e89cc.js",
+    "static/js/453.8bd26df8.chunk.js": "/sunlander-dental-centre/static/js/453.8bd26df8.chunk.js",
+    "static/media/DSC_0004.jpg": "/sunlander-dental-centre/static/media/DSC_0004.0607cc05c7115ed2fb80.jpg",
+    "static/media/Home-page-video.mp4": "/sunlander-dental-centre/static/media/Home-page-video.026033453f3d1199487b.mp4",
+    "static/media/DSC_0035.jpg": "/sunlander-dental-centre/static/media/DSC_0035.7be07c072ef5c95d2620.jpg",
+    "static/media/DSC_0046.jpg": "/sunlander-dental-centre/static/media/DSC_0046.a32452f890a78296d9ca.jpg",
+    "static/media/DSC_0029.jpg": "/sunlander-dental-centre/static/media/DSC_0029.e682fdd2b14da775536b.jpg",
+    "static/media/shutterstock_143336314.jpg": "/sunlander-dental-centre/static/media/shutterstock_143336314.6ddbe9b7fb6e0ec10456.jpg",
+    "static/media/shutterstock_592802387.jpg": "/sunlander-dental-centre/static/media/shutterstock_592802387.9ec03ab9b2a747f3c295.jpg",
+    "static/media/shutterstock_735971812.jpg": "/sunlander-dental-centre/static/media/shutterstock_735971812.8f7193b335571740500f.jpg",
+    "static/media/shutterstock_551513599.jpg": "/sunlander-dental-centre/static/media/shutterstock_551513599.7988060333fe2f3885c9.jpg",
+    "static/media/shutterstock_155611865.jpg": "/sunlander-dental-centre/static/media/shutterstock_155611865.cfe470430705e8612783.jpg",
+    "static/media/shutterstock_69641287.jpg": "/sunlander-dental-centre/static/media/shutterstock_69641287.9d9c26e997e553c333bf.jpg",
+    "static/media/shutterstock_294243569.jpg": "/sunlander-dental-centre/static/media/shutterstock_294243569.c0ab5a86fa5c4a0b0a55.jpg",
+    "static/media/shutterstock_342760937.jpg": "/sunlander-dental-centre/static/media/shutterstock_342760937.5d33cb4309e32b971a9d.jpg",
+    "static/media/shutterstock_471137213.jpg": "/sunlander-dental-centre/static/media/shutterstock_471137213.3772a207634ce2de23d4.jpg",
+    "static/media/Sunlander-text-n-Logo-new.png": "/sunlander-dental-centre/static/media/Sunlander-text-n-Logo-new.710cf05b051b632b83c4.png",
+    "index.html": "/sunlander-dental-centre/index.html",
+    "main.d8dc08ed.css.map": "/sunlander-dental-centre/static/css/main.d8dc08ed.css.map",
+    "main.329e89cc.js.map": "/sunlander-dental-centre/static/js/main.329e89cc.js.map",
+    "453.8bd26df8.chunk.js.map": "/sunlander-dental-centre/static/js/453.8bd26df8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8dc08ed.css",
+    "static/js/main.329e89cc.js"
+  ]
+}
