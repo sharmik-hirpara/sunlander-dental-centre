@@ -17,7 +17,7 @@ function App() {
   return (
     <main>
       <Container className="bg-white sticky top-0 z-10">
-      <Router>
+      <Router basename="/sunlander-dental-centre">
         <Header />
           <Routes>
             <Route exact path="/" element={<Home />} />
