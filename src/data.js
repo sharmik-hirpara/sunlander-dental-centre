@@ -1,15 +1,18 @@
-import cosmeticDental from "./assets/shutterstock_471137213.jpg";
-import dentalImplants from "./assets/shutterstock_155611865.jpg";
-import drHetal from "./assets/DSC_0029.jpg";
-import drRavi from "./assets/DSC_0035.jpg";
+import cosmeticDental from "./assets/Cosmetic_Dental.jpg";
+import crownsAndBridges from "./assets/Crowns_And_Bridges.jpg";
+import dentalFillings from "./assets/Dental Fillings.jpg"
+import dentalImplants from "./assets/Dental_Implants.jpg";
+import drHetal from "./assets/Dr_Hetal.jpg";
+import drRavi from "./assets/Dr_Ravi.jpg";
 import { FaBriefcaseMedical, FaCheckCircle, FaUser } from 'react-icons/fa';
-import nurseKristi from "./assets/DSC_0046.jpg";
-import orthodontics from "./assets/shutterstock_342760937.jpg";
-import preventiveDental from "./assets/shutterstock_69641287.jpg";
-import periodontics from "./assets/shutterstock_294243569.jpg";
-import sunlanderDentalTeam from "./assets/DSC_0004.jpg";
-import teethWhitening from "./assets/shutterstock_551513599.jpg";
-
+import inlaysAndOnlays from "./assets/Inlays_And_Onlays.jpg";
+import nurseKristi from "./assets/Nurse_Kristi.jpg";
+import orthodontics from "./assets/Orthodontics.jpg";
+import preventiveDental from "./assets/Preventive_Dental.jpg";
+import periodontics from "./assets/Periodontics.jpg";
+import sunlanderDentalTeam from "./assets/Sunlander_Dental_Team.jpg";
+import teethWhitening from "./assets/Teeth_Whitening.jpg";
+import veneers from "./assets/Veneers.jpg"
 
 export const treatments = [
     {
@@ -148,3 +151,38 @@ export const features = [
     background: "bg-black",
   },
 ];
+
+export const cosmeticdentistry = [
+{
+    imageSrc: inlaysAndOnlays,
+    imageAlt: "Inlays and Onlays",
+    heading: "Inlays and Onlays",
+    detail: "Porcelain inlays or onlays are often recommended when broken or decayed teeth are located at the back of the mouth. We can offer the latest in ceramic reconstruction technology right here in our dental surgery.",
+    needReadmoreOption: false,
+    link: ""
+},
+{
+    imageSrc: crownsAndBridges,
+    imageAlt: "Crowns and Bridges",
+    heading: "Crowns and Bridges",
+    detail: "A dental crown, also known as a dental cap or tooth cap, is often the best way to improve the structural strength and cosmetic look of teeth that have been chipped, worn excessively, heavily filled or broken down by tooth decay. If you have missing teeth, a dental bridge could be the solution. Our dentists will create a “bridge” with two dental crowns for the teeth on either side of the gap and custom-made teeth in between. Once bonded, the dental bridge fills the area left by the missing teeth.",
+    needReadmoreOption: false,
+    link: ""
+},
+{
+    imageSrc: veneers,
+    imageAlt: "Veneers",
+    heading: "Veneers",
+    detail: "Veneers are often a quick and easy way to fix cosmetic issues of the front teeth. We provide safe adhesives and porcelain laminate veneers because they provide the look, feel and strength of natural teeth.",
+    needReadmoreOption: false,
+    link: ""
+},
+{
+    imageSrc: dentalFillings,
+    imageAlt: "Dental Fillings",
+    heading: "Dental Fillings",
+    detail: "Our experienced team of dentists and dental nurses can assist with all forms of dental fillings.  Today’s modern filling are seamless and designed to last longer.",
+    needReadmoreOption: true,
+    link: "dentalfillings"
+}
+]
