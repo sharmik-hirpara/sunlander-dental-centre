@@ -6,14 +6,14 @@ import PageHeaderImage from "./ui/PageHeaderImage";
 
 export default function CosmeticDentistry() {
   return (
-    <Container>
-      <section id="cosmeticdentistry">
-        <PageHeaderImage
-          src={contactUsWallpaper}
-          alt="Contact Us"
-          textWhite="COSMETIC"
-          textBlue="DENTISTRY"
-        />
+    <section id="cosmeticdentistry">
+      <PageHeaderImage
+        src={contactUsWallpaper}
+        alt="Contact Us"
+        textWhite="COSMETIC"
+        textBlue="DENTISTRY"
+      />
+      <Container>
         <div className="items-center text-center pt-5">
           <h1 className="title-font text-2xl mb-2 font-bold ">
             Get Back Your Beautiful Smile Today
@@ -75,7 +75,7 @@ export default function CosmeticDentistry() {
             </div>
           ))}
         </div>
-      </section>
-    </Container>
+      </Container>
+    </section>
   );
 }

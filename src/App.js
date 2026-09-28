@@ -12,7 +12,7 @@ import Header from './components/Header';
 import Home from './components/Home';
 import CosmeticDentistry from './components/CosmeticDentistry';
 import DentalFillings from './components/DentalFillings';
-
+import PreventiveDental from './components/PreventiveDental';
 
 function App() {
   return (
@@ -26,6 +26,7 @@ function App() {
             <Route path="/contactus" element={<ContactUs />} />
             <Route path="/cosmeticdentistry" element={<CosmeticDentistry />} />
             <Route path="/dentalfillings" element={<DentalFillings />} />
+            <Route path="preventiveDental" element={<PreventiveDental /> } />
           </Routes>
         <Footer />
       </Router>

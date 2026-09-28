@@ -4,14 +4,14 @@ import PageHeaderImage from "./ui/PageHeaderImage";
 
 export default function DentalFillings() {
   return (
-    <Container>
-      <section id="dentalfillings">
-        <PageHeaderImage
-          src={dentalFillingsWallpaper}
-          alt="DentalFillings"
-          textWhite="DENTAL"
-          textBlue="FILLINGS"
-        />
+    <section id="dentalfillings">
+      <PageHeaderImage
+        src={dentalFillingsWallpaper}
+        alt="Dental Fillings"
+        textWhite="DENTAL"ß
+        textBlue="FILLINGS"
+      />
+      <Container>
         <div className="items-center text-center pt-5">
           <h1 className="title-font text-2xl mb-2 font-bold ">
             Chew With Confidence
@@ -55,7 +55,7 @@ export default function DentalFillings() {
             beautiful smile.
           </p>
         </div>
-      </section>
-    </Container>
+      </Container>
+    </section>
   );
 }

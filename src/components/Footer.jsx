@@ -9,7 +9,7 @@ export default function Header() {
     <footer className="xl:sticky bottom-0 z-10 w-full h-50">
       <div className="mx-auto max-w-screen flex-col md:flex-row pt-2.5">
         <div className="items-center grid grid-cols-1 md:grid-cols-5 bg-[#3513cd]">
-          <div className="px-5 md:px-12 py-2 col-span-2">
+          <div className="px-5 md:px-7 lg:px-12 py-2 col-span-2">
             <h1 className="title-font sm:text-2xl text-2xl mb-2 font-semibold text-white ">
               New patients welcome
             </h1>
