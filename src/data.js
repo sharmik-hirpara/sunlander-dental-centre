@@ -183,6 +183,6 @@ export const cosmeticdentistry = [
     heading: "Dental Fillings",
     detail: "Our experienced team of dentists and dental nurses can assist with all forms of dental fillings.  Today’s modern filling are seamless and designed to last longer.",
     needReadmoreOption: true,
-    link: "dentalfillings"
+    link: "/dentalfillings"
 }
 ]
