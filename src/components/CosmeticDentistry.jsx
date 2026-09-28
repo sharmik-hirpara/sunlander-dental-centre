@@ -34,52 +34,47 @@ export default function CosmeticDentistry() {
           </p>
         </div>
         <div>
-  {cosmeticdentistry.map((item, index) => (
-    <div
-      key={item.heading}
-      className="grid grid-cols-1 md:grid-cols-2"
-    >
-      {/* Image */}
-      <div
-        className={`${
-          index % 2 === 0 ? "md:order-1" : "md:order-2"
-        } order-1`}
-      >
-        <img
-          src={item.imageSrc}
-          alt={item.imageAlt}
-          className="w-full h-64 md:h-96 xl:h-80 object-cover"
-        />
-      </div>
+          {cosmeticdentistry.map((item, index) => (
+            <div key={item.heading} className="grid grid-cols-1 md:grid-cols-2">
+              {/* Image */}
+              <div
+                className={`${
+                  index % 2 === 0 ? "md:order-1" : "md:order-2"
+                } order-1`}
+              >
+                <img
+                  src={item.imageSrc}
+                  alt={item.imageAlt}
+                  className="w-full h-64 md:h-96 xl:h-80 object-cover"
+                />
+              </div>
 
-      {/* Text */}
-      <div
-        className={`${
-          index % 2 === 0 ? "md:order-2" : "md:order-1"
-        } order-2 flex items-center justify-center p-8 bg-gray-100`}
-      >
-        <div>
-          <h2 className="text-2xl font-semibold">
-            {item.heading}
-          </h2>
+              {/* Text */}
+              <div
+                className={`${
+                  index % 2 === 0 ? "md:order-2" : "md:order-1"
+                } order-2 flex items-center justify-center p-8 bg-gray-100`}
+              >
+                <div>
+                  <h2 className="text-2xl font-semibold">{item.heading}</h2>
 
-          <p className="leading-normal text-justify mt-4">
-            {item.detail}
-          </p>
+                  <p className="leading-normal text-justify mt-4">
+                    {item.detail}
+                  </p>
 
-          {item.needReadmoreOption && (
-            <Link
-              to={item.link}
-              className="inline-block mt-4 text-white bg-[#3513cd] px-5 py-2"
-            >
-              Read More
-            </Link>
-          )}
+                  {item.needReadmoreOption && (
+                    <Link
+                      to={item.link}
+                      className="inline-block mt-4 text-white bg-[#3513cd] px-5 py-2"
+                    >
+                      Read More
+                    </Link>
+                  )}
+                </div>
+              </div>
+            </div>
+          ))}
         </div>
-      </div>
-    </div>
-  ))}
-</div>
       </section>
     </Container>
   );

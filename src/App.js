@@ -11,6 +11,7 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import Home from './components/Home';
 import CosmeticDentistry from './components/CosmeticDentistry';
+import DentalFillings from './components/DentalFillings';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
             <Route path="/aboutus" element={<AboutUs />} />
             <Route path="/contactus" element={<ContactUs />} />
             <Route path="/cosmeticdentistry" element={<CosmeticDentistry />} />
+            <Route path="/dentalfillings" element={<DentalFillings />} />
           </Routes>
         <Footer />
       </Router>
