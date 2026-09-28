@@ -1,9 +1,10 @@
 import Container from "./ui/Container";
 import image1 from "./../assets/shutterstock_143336314.jpg";
 import image2 from "./../assets/shutterstock_592802387.jpg";
+import { Link } from "react-router-dom";
+import { treatments } from "../data";
 import React, { useEffect, useRef } from "react";
 import video from "./../assets/Home-page-video.mp4";
-import { treatments } from "../data";
 
 export default function Home() {
   const videoEl = useRef(null);
@@ -123,12 +124,12 @@ export default function Home() {
                     {treatment.description}
                   </p>
                   <div className="items-center lg:order-2 m-2 md:m-5">
-                    <a
-                      href={treatment.link}
+                    <Link
+                      to={treatment.link}
                       className="inline-block text-white bg-[#3513cd] font-medium text-lg px-4 lg:px-5 py-2 lg:py-2.5 mx-2 "
                     >
                       Read More
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
