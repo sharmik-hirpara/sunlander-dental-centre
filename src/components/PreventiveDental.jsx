@@ -1,7 +1,7 @@
+import brushYourTheeth from "./../assets/Brush_Your_Theeth.jpg";
 import Container from "./ui/Container";
 import preventiveDentalWallpaper from "./../assets/Preventive_Dental_1.jpg";
 import PageHeaderImage from "./ui/PageHeaderImage";
-import brushYourTheeth from "./../assets/Brush_Your_Theeth.jpg";
 
 export default function PreventiveDental() {
   return (
