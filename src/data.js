@@ -53,7 +53,7 @@ export const treatments = [
     name: "Periodontics",
     description:
       "At Sunlander Dental Centre we offer gum disease treatments to restore your smile, and help you protect against further progression of the condition.",
-    link: "",
+    link: "periodontics",
     imgSrc: periodontics,
     imgAlt: "Periodontics",
   },

@@ -12,6 +12,7 @@ import PreventiveDental from "./components/PreventiveDental";
 import Orthodontics from "./components/Orthodontics";
 import Invisalign from "./components/Invisalign";
 import DentalImplants from "./components/DentalImplants";
+import Periodontics from "./components/Periodontics";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
             <Route path="/orthodontics" element={<Orthodontics />} />
             <Route path="/invisalign" element={<Invisalign />} />
             <Route path="/dentalImplants" element={<DentalImplants />} />
+            <Route path="/periodontics" element={<Periodontics />} />
           </Routes>
           <Footer />
         </Router>
