@@ -11,6 +11,7 @@ import DentalFillings from "./components/DentalFillings";
 import PreventiveDental from "./components/PreventiveDental";
 import Orthodontics from "./components/Orthodontics";
 import Invisalign from "./components/Invisalign";
+import DentalImplants from "./components/DentalImplants";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
             <Route path="/preventiveDental" element={<PreventiveDental />} />
             <Route path="/orthodontics" element={<Orthodontics />} />
             <Route path="/invisalign" element={<Invisalign />} />
+            <Route path="/dentalImplants" element={<DentalImplants />} />
           </Routes>
           <Footer />
         </Router>

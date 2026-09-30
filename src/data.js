@@ -45,7 +45,7 @@ export const treatments = [
     name: "Dental Implants",
     description:
       "Today’s modern dental implants are designed to perfectly replace missing or damaged teeth.  We can help explain the procedure and clarify the benefits of implants.",
-    link: "",
+    link: "dentalImplants",
     imgSrc: dentalImplants,
     imgAlt: "Dental Implants",
   },
