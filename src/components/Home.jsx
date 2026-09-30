@@ -70,7 +70,7 @@ export default function Home() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 items-center justify-items-center mb-5 py-3 bg-[#3513cd]">
-          <div className=" items-center text-center px-5">
+          <div className="items-center text-center px-5">
             <img
               className="object-cover object-center py-3 md:p-0 w-full"
               alt="Family"

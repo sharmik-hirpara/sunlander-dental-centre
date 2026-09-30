@@ -1,17 +1,17 @@
-import contactUsWallpaper from "./../assets/shutterstock_735971812.jpg";
 import Container from "./ui/Container";
-import { cosmeticdentistryPageData } from "./../data";
-import { Link } from "react-router-dom";
+import orthodonticsWallpaper from "./../assets/Orthodontics.jpg";
+import { orthodonticsPageData } from "./../data";
 import PageHeaderImage from "./ui/PageHeaderImage";
+import { Link } from "react-router-dom";
 
-export default function CosmeticDentistry() {
+export default function Orthodontics() {
   return (
-    <section id="cosmeticdentistry">
+    <section id="orthodontics">
       <PageHeaderImage
-        src={contactUsWallpaper}
-        alt="Contact Us"
-        textWhite="COSMETIC"
-        textBlue="DENTISTRY"
+        src={orthodonticsWallpaper}
+        alt="Orthodontics"
+        textWhite="ORTHODONTICS"
+        textBlue=""
       />
       <Container>
         <div className="items-center text-center pt-5">
@@ -34,8 +34,11 @@ export default function CosmeticDentistry() {
           </p>
         </div>
         <div>
-          {cosmeticdentistryPageData.map((item, index) => (
-            <div key={item.heading} className="grid grid-cols-1 md:grid-cols-2">
+          {orthodonticsPageData.map((item, index) => (
+            <div
+              key={item.heading}
+              className="grid grid-cols-1 md:grid-cols-2 bg-gray-100"
+            >
               {/* Image */}
               <div
                 className={`${
@@ -45,7 +48,7 @@ export default function CosmeticDentistry() {
                 <img
                   src={item.imageSrc}
                   alt={item.imageAlt}
-                  className="w-full h-64 md:h-96 xl:h-80 object-cover"
+                  className="w-full h-64 md:h-full object-cover"
                 />
               </div>
 
@@ -53,7 +56,7 @@ export default function CosmeticDentistry() {
               <div
                 className={`${
                   index % 2 === 0 ? "md:order-2" : "md:order-1"
-                } order-2 flex items-center justify-center p-8 bg-gray-100`}
+                } order-2 flex items-center justify-center p-8`}
               >
                 <div>
                   <h2 className="text-2xl font-semibold">{item.heading}</h2>

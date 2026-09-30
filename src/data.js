@@ -1,11 +1,13 @@
 import cosmeticDental from "./assets/Cosmetic_Dental.jpg";
 import crownsAndBridges from "./assets/Crowns_And_Bridges.jpg";
+import customOrthodonticTreatments from "./assets/Orthodontics_1.jpg"
 import dentalFillings from "./assets/Dental Fillings.jpg";
 import dentalImplants from "./assets/Dental_Implants.jpg";
 import drHetal from "./assets/Dr_Hetal.jpg";
 import drRavi from "./assets/Dr_Ravi.jpg";
 import { FaBriefcaseMedical, FaCheckCircle, FaUser } from "react-icons/fa";
 import inlaysAndOnlays from "./assets/Inlays_And_Onlays.jpg";
+import invisalign from "./assets/Invisalign.jpg"
 import nurseKristi from "./assets/Nurse_Kristi.jpg";
 import orthodontics from "./assets/Orthodontics.jpg";
 import preventiveDental from "./assets/Preventive_Dental.jpg";
@@ -35,7 +37,7 @@ export const treatments = [
     name: "Orthodontics",
     description:
       "At Sunlander, our dentists are at the forefront of orthodontic research and can offer their patients a wide variety of options for correcting your smile and ensuring your dental wellbeing.",
-    link: "",
+    link: "orthodontics",
     imgSrc: orthodontics,
     imgAlt: "Orthodontics",
   },
@@ -132,7 +134,7 @@ export const workingHours = [
   },
   {
     day: "Saturday",
-    time: "9:00am to 2:00pm",
+    time: "8:00am to 2:00pm",
   },
   {
     day: "Sunday",
@@ -158,7 +160,7 @@ export const features = [
   },
 ];
 
-export const cosmeticdentistry = [
+export const cosmeticdentistryPageData = [
   {
     imageSrc: inlaysAndOnlays,
     imageAlt: "Inlays and Onlays",
@@ -196,3 +198,27 @@ export const cosmeticdentistry = [
     link: "/dentalfillings",
   },
 ];
+
+
+export const orthodonticsPageData = [
+      {
+    imageSrc: customOrthodonticTreatments,
+    imageAlt: "Custom Orthodontic Treatments",
+    heading: "Custom Orthodontic Treatments",
+    detail:
+      `Our dentists are dedicated to their patients which is why we believe in providing a careful diagnosis and evaluating the individual needs of our patients before deciding on a treatment plan. While braces are extremely effective, they may not fit in with everybody’s lifestyle, which is why we also offer clear braces or bespoke aligners. 
+      
+      We provide a number of treatments aimed at improving the health and function of your smile as well as straightening your teeth. Our dentists will only ever recommend the best solution for your individual case, which is how we deliver excellent treatment outcomes for all of our patients. We offer clear aligners which may be suitable for you depending on your condition and the diagnosis completed by our experienced dentists.`,
+    needReadmoreOption: false,
+    link: "",
+  },
+  {
+    imageSrc: invisalign,
+    imageAlt: "Invisalign",
+    heading: "Invisalign",
+    detail:
+      "At Sunlander Dental Centre, we can provide innovative dentistry to help patients achieve a perfect smile by using Invisalign.  Without brackets or wires, Invisalign takes a modern approach to teeth straightening and is virtually invisible.",
+    needReadmoreOption: true,
+    link: "/invisalign",
+  },
+]
