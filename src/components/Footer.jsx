@@ -20,7 +20,7 @@ export default function Header() {
           </div>
           <div className="justify-center flex items-center py-2 md:py-0 border-x border-black">
             <a
-              href="https://github.com/sharmik-hirpara"
+              href="https://www.facebook.com/sunlanderdentalcentre"
               rel="noreferrer"
               target="_blank"
               className="inline-flex items-center bg-white m-5 focus:outline-none rounded-lg text-base"
@@ -43,7 +43,7 @@ export default function Header() {
               </button>
             </a>
             <a
-              href="https://github.com/sharmik-hirpara"
+              href="https://www.instagram.com/sunlanderdental/"
               rel="noreferrer"
               target="_blank"
               className="inline-flex items-center bg-white m-5 focus:outline-none rounded-lg text-base "
