@@ -1,7 +1,7 @@
 import aboutUsWallpaper from "./../assets/shutterstock_735971812.jpg";
 import Button from "./ui/Button";
 import Container from "./ui/Container";
-import { aboutUsImages, doctorsImages, practiceManager } from "../data";
+import { aboutUsImages, doctorsImages, staff } from "../data";
 import PageHeaderImage from "./ui/PageHeaderImage";
 
 export default function AboutUs() {
@@ -46,6 +46,11 @@ export default function AboutUs() {
             centre, and take a holistic approach to your oral health.
           </p>
         </div>
+        <div className="border-b-2 border-black mt-5 mb-2 items-center text-center">
+          <h1 className="title-font text-2xl sm:text-3xl mb-2 font-bold ">
+            Doctors at Sunlander Dental Centre
+          </h1>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 w-full">
           {doctorsImages.map((doctor) => (
             <div
@@ -86,18 +91,25 @@ export default function AboutUs() {
           ))}
         </div>
         <div className="w-full my-10">
-          <hr className="my-10 border-black w-full" />
-          <h1 className="text-center title-font text-2xl mb-2 font-bold ">
-            Practice Manager
-          </h1>
-          <img
-            className="object-cover object-center w-3/4 md:w-2/5 my-5 mx-auto"
-            alt={practiceManager[0].imgAlt}
-            src={practiceManager[0].imgSrc}
-          />
-          <h1 className="text-center title-font text-3xl mb-2 font-bold text-[#3513cd]">
-            {practiceManager[0].fullName}
-          </h1>
+          <div className="border-b-2 border-black mb-2 items-center text-center">
+            <h1 className="title-font text-2xl sm:text-3xl mb-2 font-bold ">
+              Staff at Sunlander Dental Centre
+            </h1>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-5 w-full">
+            {staff.map((member) => (
+              <div>
+                <img
+                  className="object-cover object-center w-3/4 md:w-4/5 my-5 mx-auto"
+                  alt={member.imgAlt}
+                  src={member.imgSrc}
+                />
+                <h1 className="text-center title-font text-2xl mb-2 font-bold text-[#3513cd]">
+                  {member.fullName}
+                </h1>
+              </div>
+            ))}
+          </div>
         </div>
       </Container>
     </section>
