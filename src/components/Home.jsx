@@ -1,9 +1,10 @@
 import Container from "./ui/Container";
 import image1 from "./../assets/shutterstock_143336314.jpg";
 import image2 from "./../assets/shutterstock_592802387.jpg";
-import React, { useEffect, useRef } from "react";
-import video from "./../assets/Home-page-video.mp4";
+import { Link } from "react-router-dom";
 import { treatments } from "../data";
+import { useEffect, useRef } from "react";
+import video from "./../assets/Home-page-video.mp4";
 
 export default function Home() {
   const videoEl = useRef(null);
@@ -36,7 +37,7 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-2 items-center justify-items-center mb-5">
           <div className=" items-center text-center px-5">
             <div className="border-b-2 border-black mb-2">
-              <h1 className="title-font sm:text-2xl text-2xl mb-2 font-bold text-black ">
+              <h1 className="title-font text-xl md:text-2xl mb-2 font-bold text-black ">
                 SUNLANDER DENTAL, CURRAMBINE PERTH
               </h1>
             </div>
@@ -69,7 +70,7 @@ export default function Home() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 items-center justify-items-center mb-5 py-3 bg-[#3513cd]">
-          <div className=" items-center text-center px-5">
+          <div className="items-center text-center px-5">
             <img
               className="object-cover object-center py-3 md:p-0 w-full"
               alt="Family"
@@ -79,7 +80,7 @@ export default function Home() {
           </div>
           <div className=" items-center text-center px-5 text-white bg-[#3513cd]">
             <div className="border-b-2 border-white mb-2">
-              <h1 className="title-font sm:text-2xl text-2xl mb-2 font-bold ">
+              <h1 className="title-font text-xl md:text-2xl mb-2 font-bold ">
                 YOUR LOCAL DENTAL TEAM
               </h1>
             </div>
@@ -103,7 +104,7 @@ export default function Home() {
           </div>
         </div>
         <div className="border-b-2 border-black mb-2 items-center text-center">
-          <h1 className="title-font sm:text-4xl text-3xl mb-2 font-bold ">
+          <h1 className="title-font text-2xl sm:text-3xl mb-2 font-bold ">
             Complete Family Dental Care
           </h1>
         </div>
@@ -123,47 +124,18 @@ export default function Home() {
                     {treatment.description}
                   </p>
                   <div className="items-center lg:order-2 m-2 md:m-5">
-                    <a
-                      href={treatment.link}
+                    <Link
+                      to={treatment.link}
                       className="inline-block text-white bg-[#3513cd] font-medium text-lg px-4 lg:px-5 py-2 lg:py-2.5 mx-2 "
                     >
                       Read More
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
-              
             </div>
           ))}
         </div>
-
-        {/* <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-2">
-          {treatments.map((treatment) => (
-            <div className="relative">
-              <div className="absolute w-full h-full bg-neutral-200 bg-opacity-75">
-                <div className="text-center p-5">
-                  <h2 className="text-2xl font-semibold ">{treatment.name}</h2>
-                  <p className="leading-normal text-justify m-4 ">
-                    {treatment.description}
-                  </p>
-                  <div className="items-center lg:order-2 m-5">
-                    <a
-                      href="https:www.hotdoc.com.au/medical-centres/book/appointment/start?clinic=6381&amp;viaElement=practice-listing-main-cta"
-                      className="inline-block text-white bg-[#3513cd] font-medium text-lg px-4 lg:px-5 py-2 lg:py-2.5 mx-2 "
-                    >
-                      Read More
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <img
-                className="object-cover object-center"
-                alt={treatment.imgAlt}
-                src={treatment.imgSrc}
-              />
-            </div>
-          ))}
-        </div> */}
       </section>
     </Container>
   );
