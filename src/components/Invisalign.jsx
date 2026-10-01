@@ -47,7 +47,7 @@ export default function Invisalign() {
         </div>
         <div className="relative overflow-hidden">
           <div className="relative w-full h-full bg-neutral-700">
-            <div className="text-left text-white py-3 px-1 md:p-5">
+            <div className="text-left text-white py-3 px-3 md:p-5">
               <h1 className="title-font text-3xl mb-2 font-bold text-center py-5 ">
                 Clear & Virtually Invisible
               </h1>
