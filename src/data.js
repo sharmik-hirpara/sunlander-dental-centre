@@ -61,7 +61,7 @@ export const treatments = [
     name: "Teeth Whitening",
     description:
       "Get a whiter, brighter smile today with our revolutionary teeth whitening treatments.  These are designed to ensure longer lasting and whiter teeth.",
-    link: "",
+    link: "teethwhitening",
     imgSrc: teethWhitening,
     imgAlt: "Teeth Whitening",
   },
