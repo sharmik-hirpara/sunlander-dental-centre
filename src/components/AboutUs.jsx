@@ -22,7 +22,7 @@ export default function AboutUs() {
           />
         </div>
         <div className="items-center text-center pt-5">
-          <h1 className="title-font text-2xl mb-2 font-bold ">
+          <h1 className="title-font text-2xl md:text-3xl mb-2 font-bold ">
             SUNLANDER DENTAL, CURRAMBINE PERTH
           </h1>
           <p className="leading-normal text-justify bg-[#3513cd] text-white p-3">
@@ -47,7 +47,7 @@ export default function AboutUs() {
           </p>
         </div>
         <div className="border-b-2 border-black mt-5 mb-2 items-center text-center">
-          <h1 className="title-font text-2xl sm:text-3xl mb-2 font-bold ">
+          <h1 className="title-font text-2xl md:text-3xl mb-2 font-bold ">
             Doctors at Sunlander Dental Centre
           </h1>
         </div>

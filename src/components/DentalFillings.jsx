@@ -30,7 +30,7 @@ export default function DentalFillings() {
             cosmetic dental procedure.
           </p>
         </div>
-        <div className="items-center text-center pt-5 bg-gray-100">
+        <div className="items-center text-center text-white pt-5 bg-neutral-700">
           <h1 className="title-font text-2xl mb-2 font-bold ">
             Composite Filling
           </h1>
