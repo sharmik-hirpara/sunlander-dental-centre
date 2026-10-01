@@ -1,17 +1,21 @@
 import cosmeticDental from "./assets/Cosmetic_Dental.jpg";
 import crownsAndBridges from "./assets/Crowns_And_Bridges.jpg";
-import customOrthodonticTreatments from "./assets/Orthodontics_1.jpg"
+import customOrthodonticTreatments from "./assets/Orthodontics_1.jpg";
 import dentalFillings from "./assets/Dental Fillings.jpg";
 import dentalImplants from "./assets/Dental_Implants.jpg";
 import drHetal from "./assets/Dr_Hetal.jpg";
 import drRavi from "./assets/Dr_Ravi.jpg";
 import { FaBriefcaseMedical, FaCheckCircle, FaUser } from "react-icons/fa";
 import inlaysAndOnlays from "./assets/Inlays_And_Onlays.jpg";
-import invisalign from "./assets/Invisalign.jpg"
-import nurseKristi from "./assets/Nurse_Kristi.jpg";
+import invisalign from "./assets/Invisalign.jpg";
 import orthodontics from "./assets/Orthodontics.jpg";
 import preventiveDental from "./assets/Preventive_Dental.jpg";
 import periodontics from "./assets/Periodontics.jpg";
+import staffIvanniaCastillo from "./assets/Ivannia_Castillo.jpg";
+import staffKatieMilne from "./assets/Katie_Milne.jpg";
+import staffKimberleyMorris from "./assets/Kimberley_Morris.jpg";
+import staffKristiMilne from "./assets/Kristi_Milne.jpg";
+import staffSunehaAmin from "./assets/Suneha_Amin.jpg";
 import sunlanderDentalTeam from "./assets/Sunlander_Dental_Team.jpg";
 import teethWhitening from "./assets/Teeth_Whitening.jpg";
 import veneers from "./assets/Veneers.jpg";
@@ -103,11 +107,31 @@ export const doctorsImages = [
   },
 ];
 
-export const practiceManager = [
+export const staff = [
   {
-    imgSrc: nurseKristi,
-    imgAlt: "Nurse Kristi",
+    imgSrc: staffIvanniaCastillo,
+    imgAlt: "Staff - Ivannia Castillo",
+    fullName: "Ivannia Castillo",
+  },
+  {
+    imgSrc: staffKatieMilne,
+    imgAlt: "Staff - Katie Milne",
+    fullName: "Katie Milne",
+  },
+  {
+    imgSrc: staffKimberleyMorris,
+    imgAlt: "Staff - Kimberley Morris",
+    fullName: "Kimberley Morris",
+  },
+  {
+    imgSrc: staffKristiMilne,
+    imgAlt: "Staff - Kristi Milne",
     fullName: "Kristi Milne",
+  },
+  {
+    imgSrc: staffSunehaAmin,
+    imgAlt: "Staff - Suneha Amin",
+    fullName: "Suneha Amin",
   },
 ];
 
@@ -199,14 +223,12 @@ export const cosmeticdentistryPageData = [
   },
 ];
 
-
 export const orthodonticsPageData = [
-      {
+  {
     imageSrc: customOrthodonticTreatments,
     imageAlt: "Custom Orthodontic Treatments",
     heading: "Custom Orthodontic Treatments",
-    detail:
-      `Our dentists are dedicated to their patients which is why we believe in providing a careful diagnosis and evaluating the individual needs of our patients before deciding on a treatment plan. While braces are extremely effective, they may not fit in with everybody’s lifestyle, which is why we also offer clear braces or bespoke aligners. 
+    detail: `Our dentists are dedicated to their patients which is why we believe in providing a careful diagnosis and evaluating the individual needs of our patients before deciding on a treatment plan. While braces are extremely effective, they may not fit in with everybody’s lifestyle, which is why we also offer clear braces or bespoke aligners. 
       
       We provide a number of treatments aimed at improving the health and function of your smile as well as straightening your teeth. Our dentists will only ever recommend the best solution for your individual case, which is how we deliver excellent treatment outcomes for all of our patients. We offer clear aligners which may be suitable for you depending on your condition and the diagnosis completed by our experienced dentists.`,
     needReadmoreOption: false,
@@ -221,4 +243,4 @@ export const orthodonticsPageData = [
     needReadmoreOption: true,
     link: "/invisalign",
   },
-]
+];
