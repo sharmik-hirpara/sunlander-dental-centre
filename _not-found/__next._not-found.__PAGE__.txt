@@ -1,0 +1,27 @@
+2:"$Sreact.fragment"
+3:I[7121,[],""]
+4:I[4581,[],""]
+9:"static/chunks/437-ebbe81ef8eb8163d.js"
+a:"static/chunks/500-8af45f63ef5e66a0.js"
+b:"static/chunks/app/page-3a57481fed8ca38e.js"
+c:I[8500,["437","$9","500","$a","974","$b"],""]
+d:I[484,[],"OutletBoundary"]
+e:"$Sreact.suspense"
+11:"ViewportBoundary"
+12:I[484,[],"$11"]
+13:"MetadataBoundary"
+14:I[484,[],"$13"]
+6:X
+6:C
+7:X
+8:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[["$","div",null,{"className":"mx-auto w-full max-w-6xl px-5 sm:px-8 py-24","children":[["$","p",null,{"className":"text-xs font-semibold uppercase tracking-[0.18em] text-violet","children":"404"}],["$","h1",null,{"className":"mt-3 font-display text-5xl font-medium","children":"Page not found"}],["$","p",null,{"className":"mt-4 text-stone","children":"That page is not part of the Sunlander site."}],["$","$Lc",null,{"href":"/","className":"mt-6 inline-block font-semibold text-violet","children":"Back to the homepage"}]]}],null,["$","$Ld",null,{"children":["$","$e",null,{"name":"Next.MetadataOutlet","children":"$@f"}]}]]}],"p":"$@10","v":null,"s":"$7"}}]]
+1:[["children",{"s":"_not-found","h":64,"d":{"r":["$","$2","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}]}]]}],"p":"$@5","v":"$6","s":"$7"},"c":"$Q8"}]]
+0:{"t":{"t":{"s":"","h":16,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L12",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L14",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$e",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Sunlander Dental Centre | Currambine, Perth"}],["$","meta","1",{"name":"description","content":"Family-run general dental clinic in Currambine, Perth. Check-ups, cosmetic dentistry, implants, orthodontics, and teeth whitening, with Saturday appointments and HICAPS rebates."}],["$","meta","2",{"property":"og:title","content":"Sunlander Dental Centre"}],["$","meta","3",{"property":"og:description","content":"Family-run general dental clinic in Currambine, Perth. Check-ups, cosmetic dentistry, implants, orthodontics, and teeth whitening, with Saturday appointments and HICAPS rebates."}],["$","meta","4",{"property":"og:url","content":"https://www.sunlanderdentalcentre.com.au/"}],["$","meta","5",{"property":"og:site_name","content":"Sunlander Dental Centre"}],["$","meta","6",{"property":"og:locale","content":"en_AU"}],["$","meta","7",{"property":"og:image","content":"https://www.sunlanderdentalcentre.com.au/images/team.jpg"}],["$","meta","8",{"property":"og:image:alt","content":"The Sunlander Dental Centre team"}],["$","meta","9",{"property":"og:type","content":"website"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:title","content":"Sunlander Dental Centre"}],["$","meta","12",{"name":"twitter:description","content":"Family-run general dental clinic in Currambine, Perth. Check-ups, cosmetic dentistry, implants, orthodontics, and teeth whitening, with Saturday appointments and HICAPS rebates."}],["$","meta","13",{"name":"twitter:image","content":"https://www.sunlanderdentalcentre.com.au/images/team.jpg"}],["$","meta","14",{"name":"twitter:image:alt","content":"The Sunlander Dental Centre team"}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@15","v":null,"s":"$7"}},"a":"$@16","u":"$@17","b":"bkV-FkIwn_dOQcN98t1BJ"}
+f:null
+17:true
+7:300
+7:C
+16:0
+5:"$undefined"
+15:"$undefined"
+10:"$undefined"
