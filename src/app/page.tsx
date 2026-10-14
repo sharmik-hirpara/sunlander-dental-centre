@@ -3,7 +3,7 @@ import Link from "next/link";
 import { BookLink } from "@/components/book-link";
 import { Container } from "@/components/container";
 import { VisitBand } from "@/components/visit-band";
-import { doctors, homeServices, site } from "@/lib/content";
+import { doctors, homeServices, publicAsset, site } from "@/lib/content";
 
 const facts = [
   { title: "HICAPS rebates", text: "Instant health insurance claims at the practice." },
@@ -260,9 +260,9 @@ export default function HomePage() {
             controls
             playsInline
             preload="metadata"
-            poster="/images/clinic.jpg"
+            poster={publicAsset("/images/clinic.jpg")}
           >
-            <source src="/media/home.mp4" type="video/mp4" />
+            <source src={publicAsset("/media/home.mp4")} type="video/mp4" />
           </video>
         </Container>
       </section>

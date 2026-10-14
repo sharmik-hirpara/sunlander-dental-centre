@@ -1,3 +1,9 @@
+export const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
+export function publicAsset(path: string) {
+  return `${basePath}${path}`;
+}
+
 export const site = {
   name: "Sunlander Dental Centre",
   shortName: "Sunlander Dental",

@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev --webpack",
     "build": "next build --webpack",
+    "build:pages": "NEXT_PUBLIC_BASE_PATH=/sunlander-dental-centre next build --webpack",
     "start": "next start"
   },
   "dependencies": {
